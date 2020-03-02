@@ -1,0 +1,18 @@
+.demo-title {
+  color: violet;
+  font-size: 45px;
+}
+
+.demo-menu {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.demo-menu-link {
+  margin-right: 10px;
+}
+
+.demo-component {
+  font-size: 25px;
+  color: blueviolet;
+}
