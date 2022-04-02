@@ -19,10 +19,7 @@ module.exports = function() {
       ],
     },
     plugins: [
-      new HtmlWebpackPlugin({
-        template: './src/template.html',
-        filename: './index.html',
-      }),
+      new HtmlWebpackPlugin(),
     ],
     devServer: {
       historyApiFallback: true,

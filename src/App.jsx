@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import DemoMenu from './components/DemoMenu.jsx';
 import DemoComponent from './components/DemoComponent.jsx';
@@ -11,15 +11,16 @@ const App = () => (
 
     <DemoMenu />
     
-    <Switch>
+    <Routes>
       <Route
-        path="/demo-route"
-        component={DemoComponent}
+        path="demo-route"
+        element={<DemoComponent />}
       />
-      <Route 
-        component={DemoHome}
+      <Route
+        path="/"
+        element={<DemoHome />}
       />
-    </Switch>
+    </Routes>
   </HashRouter>
 );
 
