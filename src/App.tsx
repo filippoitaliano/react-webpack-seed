@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-import DemoMenu from './components/DemoMenu.jsx';
-import DemoComponent from './components/DemoComponent.jsx';
-import DemoHome from './components/DemoHome.jsx';
+import DemoMenu from './components/DemoMenu';
+import DemoComponent from './components/DemoComponent';
+import DemoHome from './components/DemoHome';
 
 const App = () => (
   <HashRouter>
